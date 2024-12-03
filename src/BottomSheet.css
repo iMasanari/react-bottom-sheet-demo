@@ -1,0 +1,19 @@
+@keyframes bottomsheet-open {
+  0% {
+    transform: translateY(100%);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes bottomsheet-backdrop-open {
+  0% {
+    background-color: transparent;
+  }
+
+  100% {
+    background-color: rgba(0 0 0 / 0.7);
+  }
+}
