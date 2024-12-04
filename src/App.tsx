@@ -10,6 +10,15 @@ const buttonStyle = css`
   font-size: 1em;
   background-color: #fff;
   color: #000;
+
+  @media (hover: hover) {
+    &:hover {
+      background-color: #eee;
+    }
+  }
+  &:active {
+    background-color: #ddd;
+  }
 `
 
 const codeStyle = css`
