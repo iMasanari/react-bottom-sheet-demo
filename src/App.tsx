@@ -69,6 +69,22 @@ function App() {
           </div>
         </BottomSheet>
       </section>
+
+      <section>
+        <h2>リンクとか</h2>
+        <ul>
+          <li>
+            <a href="https://qiita.com/iMasanari/private/4193c9d491d11da82afe">
+              紹介記事（Qiita アドベントカレンダー）
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/iMasanari/react-bottom-sheet-demo">
+              ソースコード（Github）
+            </a>
+          </li>
+        </ul>
+      </section>
     </section>
   )
 }
